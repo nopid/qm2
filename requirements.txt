@@ -7,4 +7,6 @@ seaborn
 pylatexenc
 rise==5.7.1
 notebook==6.5.7
+nbclassic
+jupyterlab
 quarto
