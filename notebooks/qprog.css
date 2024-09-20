@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "AlegreyaSC";
+    src: url("fonts/AlegreyaSC-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AlegreyaSC";
+    src: url("fonts/AlegreyaSC-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AlegreyaSC";
+    src: url("fonts/AlegreyaSC-BoldItalic.ttf") format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "AlegreyaSC";
+    src: url("fonts/AlegreyaSC-Italic.ttf") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("fonts/Alegreya-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("fonts/Alegreya-SemiBold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("fonts/Alegreya-SemiBoldItalic.ttf") format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("fonts/Alegreya-Italic.ttf") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.reveal {
+    font-family: Alegreya;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.reveal h1 {
+font-family: AlegreyaSC;
+font-weight: bold;
+color: #e07;
+text-transform: none;
+}
+
+.cool {
+color: #e07;
+}
+
+.reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+font-family: AlegreyaSC;
+font-weight: bold;
+text-transform: none;
+}
+
+.reveal p {
+    font-weight: normal;
+}
