@@ -1,12 +1,12 @@
 ipykernel
 qiskit~=1.2
 qiskit-aer
+qiskit_ibm_runtime
 matplotlib
 numpy
 seaborn
 pylatexenc
 rise==5.7.1
 notebook==6.5.7
-nbclassic
-jupyterlab
 quarto
+graphviz
