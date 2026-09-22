@@ -1,0 +1,9 @@
+#!/bin/bash
+mkdir -p ~/.jupyter/custom
+cat > ~/.jupyter/custom/custom.js << 'EOF'
+document.fonts.ready.then(() => {
+    if (window.MathJax && MathJax.Hub) {
+        MathJax.Hub.Queue(["Rerender", MathJax.Hub]);
+    }
+});
+EOF
